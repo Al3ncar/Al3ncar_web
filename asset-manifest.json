@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Al3ncar_web/static/css/main.76031048.css",
+    "main.js": "/Al3ncar_web/static/js/main.fefed5fe.js",
+    "static/media/Jorel.png": "/Al3ncar_web/static/media/Jorel.61006ee089d790411d12.png",
+    "static/media/SaoMiguel.png": "/Al3ncar_web/static/media/SaoMiguel.eaddd088d6843f3fe6b8.png",
+    "static/media/Vnw.png": "/Al3ncar_web/static/media/Vnw.7c270c8852137aa882d6.png",
+    "static/media/Star Wars.png": "/Al3ncar_web/static/media/Star Wars.1e4963909cd54d43502c.png",
+    "static/media/back.png": "/Al3ncar_web/static/media/back.ef5a1883b4d73d766970.png",
+    "static/media/Merc.png": "/Al3ncar_web/static/media/Merc.e7d385b16ccef486b082.png",
+    "static/media/ToDoFlix.png": "/Al3ncar_web/static/media/ToDoFlix.bc008740381e418613c6.png",
+    "static/media/Kahlo.png": "/Al3ncar_web/static/media/Kahlo.637e34d4fda12ae30d42.png",
+    "static/media/Portflow.png": "/Al3ncar_web/static/media/Portflow.f4034773914cbc224611.png",
+    "static/media/Recipes.png": "/Al3ncar_web/static/media/Recipes.7798e0090f23b54f53cd.png",
+    "static/media/eu-fund.png": "/Al3ncar_web/static/media/eu-fund.c8106b4bd50b6dfce050.png",
+    "static/media/figurinha.png": "/Al3ncar_web/static/media/figurinha.5de95f2291744309bea6.png",
+    "static/media/json_holder.png": "/Al3ncar_web/static/media/json_holder.050dd6875ffbd2b38312.png",
+    "static/media/Academia.png": "/Al3ncar_web/static/media/Academia.5b9cab18402280df0e97.png",
+    "static/media/eudin.png": "/Al3ncar_web/static/media/eudin.3aadb7cbc07bbd7ab4ae.png",
+    "static/media/eufig.png": "/Al3ncar_web/static/media/eufig.cfc43c92d63da70bf9ab.png",
+    "static/media/Finn.png": "/Al3ncar_web/static/media/Finn.6c693ff2aa8ac8794f3f.png",
+    "static/media/1STi.png": "/Al3ncar_web/static/media/1STi.9b1ac966c4b2083992a6.png",
+    "static/media/logo1.png": "/Al3ncar_web/static/media/logo1.20c663f18db6ecb9a8ec.png",
+    "static/media/search.png": "/Al3ncar_web/static/media/search.59cf6e7fef0120a7493e.png",
+    "static/media/IconEmail.jpg": "/Al3ncar_web/static/media/IconEmail.a6fcf513f8fa0560100d.jpg",
+    "static/media/IconGit.png": "/Al3ncar_web/static/media/IconGit.19e8e1271e969212e9e7.png",
+    "index.html": "/Al3ncar_web/index.html",
+    "main.76031048.css.map": "/Al3ncar_web/static/css/main.76031048.css.map",
+    "main.fefed5fe.js.map": "/Al3ncar_web/static/js/main.fefed5fe.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76031048.css",
+    "static/js/main.fefed5fe.js"
+  ]
+}
