@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg18"
+   width="1540.3417"
+   height="596.27539"
+   viewBox="0 0 1540.3417 596.27539"
+   sodipodi:docname="LogoBranca"
+   inkscape:version="1.2.1 (0f2f062aeb, 2022-09-21, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs22">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1388">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop1384" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="1"
+         id="stop1386" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1335"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1;"
+         offset="0"
+         id="stop1333" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1388"
+       id="linearGradient1390"
+       x1="223.07416"
+       y1="-522.13934"
+       x2="2285.4978"
+       y2="-95.395737"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="namedview20"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="0.12009646"
+     inkscape:cx="2689.5047"
+     inkscape:cy="-2027.5368"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g24" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g24"
+     transform="translate(-95.121666,2056.7017)">
+    <g
+       id="g1376"
+       transform="translate(32.836188,-1409.2273)"
+       inkscape:export-filename="../e8122923/logo1white.png"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96">
+      <path
+         style="opacity:1;fill:url(#linearGradient1390);fill-opacity:1;stroke:none;stroke-width:4.597;stroke-opacity:1;paint-order:stroke fill markers"
+         d="m 135.71102,-343.17897 c 71.55526,-130.59112 127.07543,-312.33603 208.01157,-304.02001 86.85801,15.42891 61.36229,127.55108 83.19836,216.60267 15.63391,84.30979 30.30542,126.5043 51.32014,158.2223 15.37756,16.5205 34.01109,83.858 141.54031,79.76338 266.84423,-59.38803 533.519,-158.83945 780.4295,-101.73996 81.7259,23.11134 144.6057,40.50057 202.4163,91.16769 l -128.7257,-30.08252 c -96.8782,-7.69654 -165.1988,-30.61002 -309.7693,-12.89371 -221.5036,32.99066 -572.62713,236.8727489 -717.93809,87.94203 -31.11958,-35.91548 -57.42015,-87.15661 -77.47582,-158.25799 L 334.18598,-526.25753 C 271.75687,-449.21571 225.40852,-360.49239 174.44046,-275.58628 144.05842,-209.07763 73.285389,-145.61032 131.078,-51.198981 13.199729,-104.32261 68.632769,-192.93096 135.71102,-343.17897 Z"
+         id="path1275"
+         sodipodi:nodetypes="ccccccccccccccc" />
+      <g
+         id="g1371"
+         transform="translate(56.361877,-640.81182)">
+        <circle
+           style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:5.13463;paint-order:stroke fill markers"
+           id="path1331"
+           cx="249.55869"
+           cy="423.87106"
+           r="53.091541" />
+      </g>
+    </g>
+  </g>
+</svg>
