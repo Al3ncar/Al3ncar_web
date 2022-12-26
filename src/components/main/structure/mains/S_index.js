@@ -22,7 +22,7 @@ export default function App() {
         <S.Conteiner>
             <div className="w-100 d-flex justify-content-center">
                 <S.BuscRepos>
-                    <S.TiltPort>PORTIFOLIOS</S.TiltPort>
+                    <S.TiltPort id="port">PORTIFOLIOS</S.TiltPort>
                     <S.Busc>
                         <S.Put
                             type="search"

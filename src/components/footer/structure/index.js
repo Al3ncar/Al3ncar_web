@@ -11,7 +11,7 @@ export default function Footer() {
         <footer>
             <S.Cont>
                 <div>
-                    <S.Titl>CONTATO</S.Titl>
+                    <S.Titl id="cont">CONTATO</S.Titl>
                 </div>
                 <S.FormCont>
                     <S.PutCont>

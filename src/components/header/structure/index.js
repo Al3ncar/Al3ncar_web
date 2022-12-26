@@ -1,4 +1,5 @@
-import React from "react";
+import React,{useState} from "react";
+import Modal from "../mod/index"
 
 import IgorFoto from "../imgs/eu-fund.png"
 import Mark from "../imgs/logo1.png"
@@ -6,6 +7,7 @@ import Fig from "../imgs/figurinha.png"
 import * as S from "../style/styled"
 
 export default function App(){
+  const [mods, setMods] = useState(false)
     return(
         <S.Header>
         <S.BackImg>
@@ -14,21 +16,22 @@ export default function App(){
           </S.BoxMoji>
           <div className="w-100">
             <nav className="justify-content-space-around w-100 p-3">
-                <S.List>
+              <S.List>
                 <S.Anc>
-                  <S.FItemLi>INICIO</S.FItemLi>
+                  <S.FItemLi to="home" offset={-100} duration={400}>INICIO</S.FItemLi>
                 </S.Anc>
                 <S.Anc>
-                  <S.ItemLi>SOBRE</S.ItemLi>
+                  <S.ItemLi to="sob" offset={-100} duration={400}>SOBRE</S.ItemLi>
                 </S.Anc>
-                <S.BoxLog>
+                <S.BoxLog onClick={() => setMods(true)}>
                   <img className="w-100" src={Mark} alt=""/>
                 </S.BoxLog>
+                {mods === true ? <Modal/> : null}
                 <S.Anc>
-                  <S.ItemLi>PORTIFOLIO</S.ItemLi>
+                  <S.ItemLi to="port" offset={-100} duration={400}>PORTIFOLIO</S.ItemLi>
                 </S.Anc>
                 <S.Anc>
-                  <S.ItemLi>CONTATO</S.ItemLi>
+                  <S.ItemLi to="cont" offset={-100} duration={400}>CONTATO</S.ItemLi>
                 </S.Anc>            
               </S.List>
             </nav>
@@ -40,8 +43,8 @@ export default function App(){
               </S.BoxTilt>
               <S.BoxOla>
                 <S.Ola>
-                  Olá eu sou Igor Alencar sou um desenvolver
-                  Front-end web developer, Html5, Css3, Js Vanilla, JSX, React.js, ReactHooks, Consumo de APi's.
+                  Olá eu sou <S.Bold>Igor Alencar</S.Bold>, sou um <S.Bold>desenvolver
+                  Front-end web developer</S.Bold>, Html5, Css3, Js Vanilla, JSX, React.js, ReactHooks, Consumo de APi's.
                 </S.Ola>
               </S.BoxOla>
             </div>

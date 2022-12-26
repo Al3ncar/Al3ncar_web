@@ -2,8 +2,8 @@ import styled from "styled-components"
 import Back from "../img/back.png"
 
 export const Cont = styled.section`
-    width: 97%;
-    margin:0 1.5% 1.5% 1.5%;
+    width: 98%;
+    margin:0 1% 1% 1%;
     background-image: url(${Back});
     background-size: 100% ;
     background-repeat: no-repeat;
@@ -11,18 +11,23 @@ export const Cont = styled.section`
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    @media(max-width: 500px){
+        height: 100vh;
+        flex-direction: column;
+        background-size: 100% 100vh;
+    }
 `
 export const ContBox = styled.div`
-    width: 35%;
+    width: 50%;
     padding: 10%;
-    opacity: 0%;
-    transform: translateY(100px);
-    transition: ease-in-out 0.5s;
+    opacity: 100%;
+    transition:0.5s forwards;
     &:hover{
         opacity: 100%;
-        transform: translateX(0);
         transform: scale(1.1);
+        transition: .5s ease ;
     }
+    @media(max-width: 500px){width: 100%;}
 `
 export const BoxSobre = styled.div`
     width:50%;
@@ -30,22 +35,31 @@ export const BoxSobre = styled.div`
 export const Sobre = styled.div`
     width:90%; 
     background-color: whitesmoke;
-
+    @media(max-width: 500px){
+        height: 60%; width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
 
 `
 
 export const SobreTilt = styled.h2`
-    width: 95%;
+    width: 65%;
     margin: 15% 0 0 8%;
     text-align: center;
     font-size: 3.9vw;
     font-weight: bolder;
+    @media(max-width: 500px){
+        font-size:8vw;
+        width: 82%;
+        margin: 4% 0 0 8%;
+    }
 `
 
 export const SobreText = styled.div`
-    width: 100%;
+    width: 98%;
     font-size: 1.2vw;
-    padding: 10% 0 8% 0;
+    padding: 8% 0 8% 0;
     display: grid;
     place-items: center;
     text-align: center;
@@ -68,6 +82,13 @@ export const SobreText = styled.div`
         bottom:40%;
         right:65%;
         transform: rotate(90deg);
+    }
+    @media(max-width: 500px){
+        width: 100%;
+        font-size: 2.8vw;
+        padding:5% 0 2% 0;
+        background-color: gray;
+
     }
 `
 
@@ -94,7 +115,9 @@ export const ElementRight = styled.span`
         }
 
 `
-
+export const Text = styled.p`
+    width: 70%;
+`
 export const ElementLeft = styled.span`
     padding: 5%;
     display: flex;
@@ -180,6 +203,7 @@ export const Parg = styled.p`
     background-color: black;
     color: white;
     font-weight:bolder;
+    
 `
 
 export const TitlRepos = styled.h3`

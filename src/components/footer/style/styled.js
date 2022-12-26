@@ -13,6 +13,7 @@ export const Titl = styled.h2`
     font-weight: bolder;
     color:white;
     padding: 4% 2% 1% 2%;
+    @media(max-width:1200px){  }
 `
 export const FormCont = styled.div`
     width: 100%;
@@ -58,7 +59,6 @@ export const Put = styled.input`
         font-size: 1vw;
     }
 
-
 `
 export const Btn = styled.input`
     width: 35%;
@@ -68,50 +68,39 @@ export const Btn = styled.input`
     padding: 3.05%;
     border: none;
 `
-
 export const BoxRedes = styled.div`
     width:100%;
     display: flex;
-    justify-content: center;
-    
+    justify-content: center; 
 `
 export const BoxElement = styled.div`
     width: 20%; 
     margin-top: 5%;
     text-decoration:none;
 `
-
 export const BoxImg = styled.div`
     width:10%;
     display: flex;
     align-items: center;
     transition: ease-in-out 0.2s;
-    :hover{
-        transform: scale(1.1);
-    }
-    img{
-        width: 100%;
-    }
+    :hover{transform: scale(1.1);}
+    img{width: 100%;}
 `
 export const Git = styled.div`
     width: 20%;
     transition: ease-in-out 0.2s;
-    :hover{
-        transform: scale(1.1);
-    }
+    :hover{transform: scale(1.1);}
 `
-
 export const ImgGit = styled.img`
     width: 100%;
     border-radius: 50%;
-
 `
 export const Anc = styled.a`
-        width: 100%;
-        display: grid;
-        place-items:center;
-        justify-content: center;
-        text-decoration:none;
+    width: 100%;
+    display: grid;
+    place-items:center;
+    justify-content: center;
+    text-decoration:none;
 
 `
 export const Parg = styled.p`
@@ -121,18 +110,15 @@ export const Parg = styled.p`
     transition: ease-in-out 0.2s;
     :hover{
         transform: scale(1.1);
-        text-decoration: underline ;
-        
+        text-decoration: underline ;     
     }
 `
-
 export const ContParg = styled.div`
     width: 100%; 
     display: flex;
     align-items: center;
     justify-content: center;
 `
-
 export const BoxNav = styled.div`
     width: 15%;
     position: relative;
@@ -169,7 +155,6 @@ export const ItemLi = styled.li`
     font-size: 1.1vw;
     font-weight: bolder;
     color:white;
-
     :hover{
         transform: scale(1.1);
         cursor:pointer;
