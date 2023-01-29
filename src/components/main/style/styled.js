@@ -116,7 +116,7 @@ export const ElementRight = styled.span`
 
 `
 export const Text = styled.p`
-    width: 70%;
+    width: 50%;
 `
 export const ElementLeft = styled.span`
     padding: 5%;

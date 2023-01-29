@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import {MapRepos} from "./Elements/MapRepos/index"
-import {Pire, Destaque, Desafios} from "./Elements/Portfolios/index"
+import {Pires, Destaque, Desafios} from "./Elements/Portfolios/index"
 import Search from "../../img/search.png"
 import Nuka from "nuka-carousel"
 import * as S from "../../style/styled"
@@ -15,9 +15,8 @@ const settings = {
 };
 
 export default function App() {
-    const [Filt,
-        setFilt] = useState("")
-    const Filtrar = Pire.filter((r) => r.name.includes(Filt))
+    const [Filt, setFilt] = useState("")
+    const Filtrar = Pires.filter((r) => r.name.includes(Filt))
     return (
         <S.Conteiner>
             <div className="w-100 d-flex justify-content-center">

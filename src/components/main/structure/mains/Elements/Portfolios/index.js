@@ -1,18 +1,52 @@
-import PVnw from "./imgs/Vnw.png"
+import PVnw from "./imgs/Vnw.png" 
 import PSao from "./imgs/SaoMiguel.png"
 import PStar from "./imgs/Star Wars.png"
 import PReci from "./imgs/Recipes.png"
 import PTodo from "./imgs/ToDoFlix.png"
 import PMerc from "./imgs/Merc.png"
-import PFirst from "./imgs/1STi.png"
+import PFirst from "./imgs/1STi.png" 
 import PPort from "./imgs/Portflow.png"
-import PKah from "./imgs/Kahlo.png"
+import PKah from "./imgs/Kahlo.png" 
 import PAc from "./imgs/Academia.png"
 import Pjson from "./imgs/json_holder.png"
 import PFinn from "./imgs/Finn.png"
-import PJorel from "./imgs/Jorel.png" 
+import PJorel from "./imgs/Jorel.png"  
+/* 
 
-export const Pire = [
+export function Pire (name, img, id) {
+    return(
+        {
+        names: name,
+        imgs: img,
+        ids: id,
+        }
+    );
+}
+ console.log(Pire)
+
+export const Destaque = (name, img, id) => {
+    return{
+        names: name,
+        imgs: img,
+        ids: id,
+    };
+}
+
+const destaque1 = Destaque("Academia VaiNaWeb", PAc, 10);
+
+
+export const Desafios = (name, img, id) => {
+    return{
+        names: name,
+        imgs: img,
+        ids: id,
+    };
+}
+
+const desafios1 = Desafios("Portflow", PPort, 8);
+console.log(desafios1) */
+
+export const Pires = [
     {
         name:"Vai Na Web",
         img:`${PVnw}`,
@@ -79,6 +113,7 @@ export const Pire = [
         id:13
     },
 ]
+
 
 export const Destaque = [
 
