@@ -2,15 +2,11 @@ import styled from "styled-components"
 import Back from "../img/back.png"
 
 export const Cont = styled.section`
-    width: 98%;
+    width: 98%; height: 100vh;
     margin:0 1% 1% 1%;
-    background-image: url(${Back});
-    background-size: 100% ;
-    background-repeat: no-repeat;
-    background-position: left;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     @media(max-width: 500px){
         height: 100vh;
         flex-direction: column;
@@ -18,23 +14,24 @@ export const Cont = styled.section`
     }
 `
 export const ContBox = styled.div`
-    width: 50%;
+    width: 50%; height: 100vh;
     padding: 10%;
-    opacity: 100%;
-    transition:0.5s forwards;
-    &:hover{
-        opacity: 100%;
-        transform: scale(1.1);
-        transition: .5s ease ;
-    }
+    
+    background-image: url(${Back});
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     @media(max-width: 500px){width: 100%;}
 `
 export const BoxSobre = styled.div`
     width:50%;
 `
 export const Sobre = styled.div`
-    width:90%; 
-    background-color: whitesmoke;
+    width:60%; 
+    background-color: #7c3030;
     @media(max-width: 500px){
         height: 60%; width: 100%;
         align-items: center;
@@ -116,8 +113,10 @@ export const ElementRight = styled.span`
 
 `
 export const Text = styled.p`
-    width: 50%;
-`
+    width: 55%;
+    padding: 1% 0;
+    font-size: 1.4vw;
+` 
 export const ElementLeft = styled.span`
     padding: 5%;
     display: flex;

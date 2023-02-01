@@ -66,16 +66,16 @@ export default function Footer() {
                         <nav className="d-flex justify-content-end w-100 p-3">
                             <S.List>
                                 <S.AncNav>
-                                    <S.ItemLi>Inicio</S.ItemLi>
+                                    <S.ItemLi >Inicio</S.ItemLi>
                                 </S.AncNav>
                                 <S.AncNav>
-                                    <S.ItemLi>Sobre</S.ItemLi>
+                                    <S.ItemLi >Sobre</S.ItemLi>
                                 </S.AncNav>
                                 <S.AncNav>
-                                    <S.ItemLi>Portifolio</S.ItemLi>
+                                    <S.ItemLi >Portifolio</S.ItemLi>
                                 </S.AncNav>
                                 <S.AncNav>
-                                    <S.ItemLi>Contato</S.ItemLi>
+                                    <S.ItemLi >Contato</S.ItemLi>
                                 </S.AncNav>
                             </S.List>
                         </nav>

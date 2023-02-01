@@ -15,11 +15,7 @@ export default function Findex() {
                 <S.SobreText>
                     <S.ElementLeft/>
                     <S.Text>
-                        Eu sou Igor Alencar, tenho 17 anos e estou cursando o ensino médio, busco
-                        resultados comprometidos para o desenvolvimento cultural e capital da empresa,
-                        sempre aprendendo e crescendo nas entregas dos projetos, valorizando o trabalho
-                        em equipe e as experiências trocadas. Visando um bom relacionamento entre
-                        conjuto, sempre agregando boas praticas e valores para o time/equipe.
+                        Eu sou Igor Alencar, um programador apaixonado no que faço, além da grande vontade de aprender mais e mais, sempre aberto a desafio e conselhos, sendo meu foco crescer profissionalmente e pessoalmente. Estou com 1 ano de experiência como front-end, atuando com JS Vanilla, React.js, Styled-Components.
                     </S.Text>
                     <S.Text>
                         Eu tenho uma excelente habilidade de se comunicar, além da grande nescessidade
