@@ -6,7 +6,10 @@ export const Cont = styled.section`
     margin:0 1% 1% 1%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+
+    background-image: url(${Back});
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
     @media(max-width: 500px){
         height: 100vh;
         flex-direction: column;
@@ -14,12 +17,10 @@ export const Cont = styled.section`
     }
 `
 export const ContBox = styled.div`
-    width: 50%; height: 100vh;
+    width: 49%; height: 100vh;
     padding: 10%;
     
-    background-image: url(${Back});
-    background-size: 100% 100vh;
-    background-repeat: no-repeat;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,7 +31,7 @@ export const BoxSobre = styled.div`
     width:50%;
 `
 export const Sobre = styled.div`
-    width:60%; 
+    width:48%; 
     background-color: #7c3030;
     @media(max-width: 500px){
         height: 60%; width: 100%;
@@ -41,7 +42,7 @@ export const Sobre = styled.div`
 `
 
 export const SobreTilt = styled.h2`
-    width: 65%;
+    width: 50%;
     margin: 15% 0 0 8%;
     text-align: center;
     font-size: 3.9vw;
@@ -113,9 +114,9 @@ export const ElementRight = styled.span`
 
 `
 export const Text = styled.p`
-    width: 55%;
-    padding: 1% 0;
-    font-size: 1.4vw;
+    width: 58%;
+
+    font-size: 1.1vw;
 ` 
 export const ElementLeft = styled.span`
     padding: 5%;

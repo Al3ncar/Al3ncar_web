@@ -6,11 +6,11 @@ export const Header = styled.header`
     width: 100%; height: 100%;
 `
 export const BackImg = styled.section`
-    width: 98%; height: 98%;
+    width: 98%; 
     margin: 1%;   
     background-image: url(${Back});
     background-repeat: no-repeat;
-    background-size: 100% 100vh;
+    background-size: 100% 100%;
     
     position: relative;
     ::after{
@@ -178,7 +178,7 @@ export const Titl = styled.h1`
 `
 export const BoxOla = styled.div`
     width: 85%;
-    padding: 2% 0 15% 0;
+    padding: 2% 0 1% 0;
     text-align: right;
     display: flex;
     justify-content: end;
