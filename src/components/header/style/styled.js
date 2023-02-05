@@ -178,7 +178,7 @@ export const Titl = styled.h1`
 `
 export const BoxOla = styled.div`
     width: 85%;
-    padding: 2% 0 1% 0;
+    padding: 2% 0 3% 0;
     text-align: right;
     display: flex;
     justify-content: end;
