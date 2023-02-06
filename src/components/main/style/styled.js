@@ -2,7 +2,7 @@ import styled from "styled-components"
 import Back from "../img/back.png"
 
 export const Cont = styled.section`
-    width: 98%; height: 100vh;
+    width: 98%; height: 100%;
     margin:0 1% 1% 1%;
     display: flex;
     justify-content: space-between;
@@ -17,7 +17,7 @@ export const Cont = styled.section`
     }
 `
 export const ContBox = styled.div`
-    width: 49%; height: 100vh;
+    width: 49%; height: 100%;
     padding: 10%;
     
 
@@ -31,8 +31,8 @@ export const BoxSobre = styled.div`
     width:50%;
 `
 export const Sobre = styled.div`
-    width:48%; 
-    background-color: #7c3030;
+    width:50%; 
+    background-color: #f2f2f2;
     @media(max-width: 500px){
         height: 60%; width: 100%;
         align-items: center;
@@ -43,7 +43,7 @@ export const Sobre = styled.div`
 
 export const SobreTilt = styled.h2`
     width: 50%;
-    margin: 15% 0 0 8%;
+    margin: 20% 0 0 10%;
     text-align: center;
     font-size: 3.9vw;
     font-weight: bolder;
@@ -57,9 +57,9 @@ export const SobreTilt = styled.h2`
 export const SobreText = styled.div`
     width: 98%;
     font-size: 1.2vw;
-    padding: 8% 0 8% 0;
+    padding: 8% 0 6% 0;
     display: grid;
-    place-items: center;
+    place-items: center; 
     text-align: center;
     position: relative;
     &::before, &::after{
@@ -115,7 +115,6 @@ export const ElementRight = styled.span`
 `
 export const Text = styled.p`
     width: 58%;
-
     font-size: 1.1vw;
 ` 
 export const ElementLeft = styled.span`
