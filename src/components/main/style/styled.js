@@ -17,12 +17,11 @@ export const Cont = styled.section`
     }
 `
 export const ContBox = styled.div`
-    width: 35%; height: 50%;
+    width: 50%; height: 100%;
     padding: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
-
     @media(max-width: 500px){width: 100%;}
 `
 export const BoxSobre = styled.div`

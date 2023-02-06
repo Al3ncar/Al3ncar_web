@@ -13,13 +13,18 @@ export const Titl = styled.h2`
     font-weight: bolder;
     color:white;
     padding: 4% 2% 1% 2%;
-    @media(max-width:1200px){  }
+    @media(max-width:500px){
+        font-size: 5vw;
+    }
 `
 export const FormCont = styled.div`
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    @media(max-width:500px){
+        display: none;
+    }
 `
 export const PutCont = styled.div`
     width: 40%;
@@ -77,6 +82,9 @@ export const BoxElement = styled.div`
     width: 20%; 
     margin-top: 5%;
     text-decoration:none;
+    @media(max-width:500px){
+        width: 50%
+    }
 `
 export const BoxImg = styled.div`
     width:10%;
@@ -85,6 +93,9 @@ export const BoxImg = styled.div`
     transition: ease-in-out 0.2s;
     :hover{transform: scale(1.1);}
     img{width: 100%;}
+    @media(max-width:500px){
+        width: 22%;
+    }
 `
 export const Git = styled.div`
     width: 20%;
@@ -111,6 +122,9 @@ export const Parg = styled.p`
     :hover{
         transform: scale(1.1);
         text-decoration: underline ;     
+    }
+    @media(max-width:500px){
+        display: none;
     }
 `
 export const ContParg = styled.div`
@@ -143,6 +157,9 @@ export const List = styled.ul`
     display: flex;
     justify-content: flex-end;
     list-style: none;
+    @media(max-width:500px){
+        display: none;
+    }
 `
 export const AncNav = styled.a`
     width: 30%;
