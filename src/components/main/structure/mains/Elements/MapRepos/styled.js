@@ -3,15 +3,24 @@ import styled from "styled-components"
 export const Cont = styled.div`
     width:100%;
     margin: 1%;
+    @media(max-width: 500px){
+        width: 100%;
+    }
 `
 export const CardImg = styled.div`
     width:100%;
     padding: 2%;
     position: relative;
+    @media(max-width: 500px){
+        width: 100%;
+    }
 `
 export const Card = styled.div` 
     position: relative;
     background-color: black;
+    @media(max-width: 500px){
+        width: 100%;
+    }
 `
 export const Titl = styled.h3`
     font-size: 1.9vw;
@@ -36,5 +45,8 @@ export const Titl = styled.h3`
         opacity: 100%;
         transform: translateX(0px);
 
+    }
+    @media(max-width: 500px){
+        width: 100%;
     }
 `

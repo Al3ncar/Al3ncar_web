@@ -17,10 +17,8 @@ export const Cont = styled.section`
     }
 `
 export const ContBox = styled.div`
-    width: 49%; height: 100%;
+    width: 35%; height: 50%;
     padding: 10%;
-    
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,10 +81,7 @@ export const SobreText = styled.div`
     }
     @media(max-width: 500px){
         width: 100%;
-        font-size: 2.8vw;
         padding:5% 0 2% 0;
-        background-color: gray;
-
     }
 `
 
@@ -114,8 +109,13 @@ export const ElementRight = styled.span`
 
 `
 export const Text = styled.p`
-    width: 58%;
+    width: 58%; height: 100%;
     font-size: 1.1vw;
+    @media(max-width: 500px){
+        width: 65%;
+        font-size: 3.2vw;
+    }
+
 ` 
 export const ElementLeft = styled.span`
     padding: 5%;
@@ -138,7 +138,9 @@ export const ElementLeft = styled.span`
         &::before{
             left:0%;
         }
+
 `
+
 
 // S_Main
 
@@ -172,6 +174,11 @@ export const TiltPort = styled.h2`
     font-size: 1.9vw;
     font-weight: bolder;
     color:white;
+    @media(max-width: 500px){
+        width: 100%;
+        font-size:5vw ;
+        text-align: center;
+    }
 `
 export const Busc = styled.div`
     width:50%;
@@ -181,10 +188,16 @@ export const Busc = styled.div`
     justify-content: center;
     align-items: center;
     margin-right: 5%;
-
+    @media(max-width: 500px){
+        display: none
+    }   
 `
 export const BuscIcon = styled.div`
     width: 5%;
+    :hover{
+        cursor: pointer
+    }
+    
 `
 export const Put = styled.input`
     width: 90%;
@@ -211,4 +224,7 @@ export const TitlRepos = styled.h3`
     padding:2% 0 2% 5%;
     text-align: left;
     color: white;
+    @media(max-width: 500px){
+        display: none;
+    }
 `
