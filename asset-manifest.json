@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Al3ncar_web/static/css/main.76031048.css",
-    "main.js": "/Al3ncar_web/static/js/main.fefed5fe.js",
+    "main.js": "/Al3ncar_web/static/js/main.6626a9f5.js",
     "static/media/Jorel.png": "/Al3ncar_web/static/media/Jorel.61006ee089d790411d12.png",
     "static/media/SaoMiguel.png": "/Al3ncar_web/static/media/SaoMiguel.eaddd088d6843f3fe6b8.png",
     "static/media/Vnw.png": "/Al3ncar_web/static/media/Vnw.7c270c8852137aa882d6.png",
@@ -26,10 +26,10 @@
     "static/media/IconGit.png": "/Al3ncar_web/static/media/IconGit.19e8e1271e969212e9e7.png",
     "index.html": "/Al3ncar_web/index.html",
     "main.76031048.css.map": "/Al3ncar_web/static/css/main.76031048.css.map",
-    "main.fefed5fe.js.map": "/Al3ncar_web/static/js/main.fefed5fe.js.map"
+    "main.6626a9f5.js.map": "/Al3ncar_web/static/js/main.6626a9f5.js.map"
   },
   "entrypoints": [
     "static/css/main.76031048.css",
-    "static/js/main.fefed5fe.js"
+    "static/js/main.6626a9f5.js"
   ]
 }
