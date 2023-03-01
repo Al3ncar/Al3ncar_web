@@ -85,6 +85,12 @@ export const Anc = styled.a`
     text-decoration: none;
     text-align: center;
     color:black;
+    :hover{
+        transform: scale(1.1);
+        transition: all .2s;
+        cursor:pointer;
+        color:black;
+    }
     @media(max-width: 800px){
         display: none;
     } 
